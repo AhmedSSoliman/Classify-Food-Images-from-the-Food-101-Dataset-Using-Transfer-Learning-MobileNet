@@ -1,6 +1,6 @@
 # Fine-Tuning-MobileNet-on-Custom-Data-Set-with-TensorFlow-Keras-API
 
- Build the fine-tuned model
+ # Build the fine-tuned model
 
 If you’re not already familiar with the concept of fine-tuning, that’s alright because we have several other episodes on fine-tuning using the VGG16 model with Keras, as well as an episode dedicated to the concept of fine-tuning and transfer learning, so check those out first if you need to.
 
@@ -8,6 +8,8 @@ Now, we'll download the MobileNet model, and print a summary of it.
 
 mobile = tf.keras.applications.mobilenet.MobileNet()
 mobile.summary()
+
+
 
 Model: "mobilenet_1.00_224"
 _________________________________________________________________
